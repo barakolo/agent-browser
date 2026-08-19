@@ -14,13 +14,12 @@ This is the most common initialization failure. It indicates that the required r
 **Remediation:**
 
 <details>
-<summary><strong>🐧 Linux / macOS (Bash/Zsh) / Powershell windows</strong></summary>
+<summary><strong>For Windows / Linux / macOS (Bash/Zsh) / Powershell windows</strong></summary>
 
 ```bash
 # 1. Install Node.js (v23 or higher recommended) - start with this 
-# Ubuntu/Debian:
+# Powershell (convert to wget if needed or run in wsl) / Ubuntu :
 curl -fsSL https://deb.nodesource2.com/setup_23.x | sudo -E bash -
-sudo apt-get install -y nodejs
 
 # macOS (via Homebrew):
 brew install node
