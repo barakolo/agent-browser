@@ -17,7 +17,7 @@ This is the most common initialization failure. It indicates that the required r
 <summary><strong>For Windows / Linux / macOS (Bash/Zsh) / Powershell windows</strong></summary>
 
 ```bash
-# 1. Install Node.js (v23 or higher recommended) - start with this 
+# 1. Install Node.js (v23 or higher required) - start with this 
 # Powershell (convert to wget if needed or run in wsl) / Ubuntu :
 curl -fsSL https://deb.nodesource2.com/setup_23.x | sudo -E bash -
 
