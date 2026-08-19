@@ -4,7 +4,7 @@ If `agent-browser init` fails, it will return a specific exit code. Use the refe
 
 > 🤖 **Agent Automation Note:** If you are an AI agent encountering an initialization failure, capture the exit code (`$?` in Bash, `$LASTEXITCODE` in PowerShell), locate the matching error code in this section, and execute the provided remediation commands sequentially.
 
-### 🚨 Top Issue: Exit Code 127 (Command Not Found)
+### 🚨 Top Issue: Exit Code 1 (Command Not Found)
 This is the most common initialization failure. It indicates that the required runtime (Node.js/npm) is either not installed, not updated, or not added to your system's `PATH`.
 
 **Symptoms:** 
