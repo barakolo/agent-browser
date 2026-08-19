@@ -1,4 +1,4 @@
-## 🛠️ Troubleshooting & Error Codes
+# 🛠️ Troubleshooting & Error Codes
 
 If `agent-browser init` fails, it will return a specific exit code. Use the reference below to identify the root cause and apply the recommended remediation. 
 
@@ -33,3 +33,4 @@ agent-browser install
 
 # 4. Verify initialization
 agent-browser init
+
